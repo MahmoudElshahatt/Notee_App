@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.noteeapp.MainActivity">
+
+    <item
+        android:id="@+id/menu_search"
+        android:icon="@drawable/ic_search"
+        android:iconTint="@color/black"
+        android:title="Search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="ifRoom" />
+</menu>
